@@ -1,0 +1,164 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* hiding overflow of  bootsrap rows */
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+/* Styling Home Page */
+
+/* Styling the top of navbar */
+
+.nav-top{
+    background-color: dodgerblue;
+    color: dodgerblue;
+}
+
+
+
+#active {
+    border-bottom: solid 3px black ;
+}
+
+.links-in-nav{
+    color: dodgerblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.phone-icon {
+    margin-left: 8%;
+}
+
+.mail-icon {
+    margin-left: 8%;
+}
+
+.facebook-top-icon {
+    margin-left: 16%;
+}
+
+.linkedin-top-icon {
+    margin-left: 1%;
+}
+
+/* Styling The main navbar */
+
+.main-nav{
+    padding-top: -50px;
+}
+
+#navbarSupportedContent {
+    margin-left: 30%;
+}
+
+.CMS-logo{
+    width: 20%;
+}
+
+/* Styling the slide */
+
+.row .pic-slide-container {
+    width: 100%;
+}
+
+.slide-pic {
+    max-height: 500px;
+}
+ 
+.on-light {
+    color: black;
+} 
+
+.para-on-light{
+    color: black;
+}
+
+/* styling mid content */
+
+.mid-cms{
+    /* margin-top: 1%; */
+    max-height: 30%;
+    margin-top: -80px;
+    margin-bottom: -70px;
+}
+
+.mid-content {
+    height: fit-content;
+}
+
+/* Styling Footer */
+
+footer{
+    background-color:dodgerblue;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 2;
+    padding: 30px;
+    gap: 15px;
+    margin-top: 70px;
+}
+
+.useful-links {
+    grid-column: 1/2;
+    margin-left: 20px;
+}
+
+.operating-hours{
+    grid-column: 2/3;
+    margin-left: 25%;
+}
+
+.contact-footer{
+    grid-column: 3/4;
+    margin-left: 25%;
+}
+
+.copyright-footer {
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+
+/* Service Page  */
+
+.service-img{
+    height: 90%;
+    width: 100%;
+}
+
+.info-on-services p{
+    text-align: justify;
+}
+
+/* About Page */
+
+.mini-icons{
+    max-width: 120px;
+    max-height: 120px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.icon-text{
+    text-align: center;
+}
+
+/* Contact Page */
+
+.bg-debt-img{
+    max-height: 400px;
+    opacity: 0.5;
+}
+
+.debt-text{
+    text-align: center;
+    margin-top: 18%;
+}
